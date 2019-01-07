@@ -10,5 +10,5 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
 
 ### Tools
 Python 3.6.4 <br>
-[PyTorch 1.0.0](https://pytorch.org)
+[PyTorch 1.0.0](https://pytorch.org) <br>
 [Tex Live 2018](http://www.tug.org/texlive/windows.html)
