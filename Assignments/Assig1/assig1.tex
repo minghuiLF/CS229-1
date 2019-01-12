@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage{fullpage,enumitem,amsmath,amssymb,graphicx,grffile,float}
+\usepackage{fullpage,enumitem,amsmath,amssymb,graphicx,grffile,float,listings}
 
 
 
@@ -59,9 +59,25 @@
             \includegraphics[width=0.80\textwidth]{figure/original_data.png}
         \end{figure}
 
-        Firstly, we plot the original data \\
+        To implement Newton’s Method, we calculate the value of 
+        $$\frac{1}{m} \sum_{k=1}^{m} \frac{-y^{(k)}x^{(k)}_i}{1+e^{y^{(k)}\theta^{T}x^{(k)}}}
+        $$
+        and $\textbf{Hessian}$\\
+        then using the \textbf{update rule}
+        $$ \theta := \theta - H^{-1}\bigtriangledown_\theta l(\theta) $$
     }
     
+    \newpage
+    \item 
+    {
+        Through 6 iterations, we finally get the result
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.80\textwidth]{figure/Iteration6.png}
+        \end{figure}
+        and the $ \theta $ is  [-2.6205116,   0.76037154,  1.17194674].
+    }
+
     \end{enumerate}
 
 

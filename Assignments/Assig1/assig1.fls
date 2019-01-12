@@ -62,6 +62,12 @@ INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 INPUT assig1.aux
 INPUT assig1.aux
 OUTPUT assig1.aux
@@ -107,6 +113,12 @@ INPUT ./figure/original_data.png
 INPUT ./figure/original_data.png
 INPUT ./figure/original_data.png
 INPUT ./figure/original_data.png
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT ./figure/Iteration6.png
+INPUT ./figure/Iteration6.png
+INPUT ./figure/Iteration6.png
+INPUT ./figure/Iteration6.png
 INPUT assig1.aux
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

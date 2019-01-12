@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  7 JAN 2019 08:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  12 JAN 2019 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -155,7 +155,29 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks23
 \@floatcapt=\box31
-) (./assig1.aux)
+) (e:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count102
+\lst@gtempboxa=\box32
+\lst@token=\toks24
+\lst@length=\count103
+\lst@currlwidth=\dimen115
+\lst@column=\count104
+\lst@pos=\count105
+\lst@lostspace=\dimen116
+\lst@width=\dimen117
+\lst@newlines=\count106
+\lst@lineno=\count107
+\lst@maxwidth=\dimen118
+ (e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
+\lst@framebox=\box33
+) (e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+ (./assig1.aux)
 \openout1 = `assig1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -172,17 +194,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
  (e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen115
-\scratchbox=\box32
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen116
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count110
+\scratchdimen=\dimen119
+\scratchbox=\box34
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen120
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks26
 ) (e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -197,6 +219,8 @@ Package grfext Info: Graphics extension search list:
  (e:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+\c@lstlisting=\count116
+
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
@@ -225,25 +249,26 @@ File: figure/original_data.png Graphic file (type png)
 <use figure/original_data.png>
 Package pdftex.def Info: figure/original_data.png  used on input line 59.
 (pdftex.def)             Requested size: 375.80544pt x 281.86288pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
-
- []
-
-[2 <./figure/original_data.png (PNG copy)>] (./assig1.aux) ) 
+[2 <./figure/original_data.png (PNG copy)>]
+<figure/Iteration6.png, id=21, 642.4pt x 481.8pt>
+File: figure/Iteration6.png Graphic file (type png)
+<use figure/Iteration6.png>
+Package pdftex.def Info: figure/Iteration6.png  used on input line 76.
+(pdftex.def)             Requested size: 375.80544pt x 281.86288pt.
+ [3 <./figure/Iteration6.png (PNG copy)>] (./assig1.aux) ) 
 Here is how much of TeX's memory you used:
- 2799 strings out of 492616
- 38627 string characters out of 6132769
- 108204 words of memory out of 5000000
- 6667 multiletter control sequences out of 15000+600000
- 9804 words of font info for 37 fonts, out of 8000000 for 9000
+ 4142 strings out of 492616
+ 57688 string characters out of 6132769
+ 127989 words of memory out of 5000000
+ 7996 multiletter control sequences out of 15000+600000
+ 10425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,17n,27p,312b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,17n,32p,312b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 <e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on assig1.pdf (2 pages, 114914 bytes).
+Output written on assig1.pdf (3 pages, 134672 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
