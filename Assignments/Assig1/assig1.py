@@ -3,17 +3,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-def fun1(y_k, theta, x_k):
-    '''
-    :param y_k:
-    :param theta:
-    :param x_k:
-    :return: calculate the bottom part of the formula
-    '''
-    return 1.0+math.exp(y_k*theta*x_k.T)
 
+def LogisticRegression():
+    '''
+    Perform Logistic Regression with Newton's Method
+    '''
 
-if __name__ == '__main__':
+    def fun1(y_k, theta, x_k):
+        '''
+        :param y_k:
+        :param theta:
+        :param x_k:
+        :return: calculate the bottom part of the formula
+        '''
+        return 1.0 + math.exp(y_k * theta * x_k.T)
     dfx = pd.read_table('data/logistic_x.txt',delim_whitespace=True, header=None)
     dfy = pd.read_table('data/logistic_y.txt', header=None)
     dfy.astype(int)
@@ -67,3 +70,6 @@ if __name__ == '__main__':
         print('%d Iteration: theta changed by %.6f'%(iter,delta))
     print('Converged After %d Iterations'%(iter))
     print(theta)
+
+if __name__ == '__main__':
+    pass

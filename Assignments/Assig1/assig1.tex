@@ -22,7 +22,7 @@
 
     \item 
     {
-        Given that \\
+        Given that 
         $$J(\theta)= \frac{1}{m} \sum_{i=1}^{m}log(1+e^{-y^{(i)}\theta^{T}x^{(i)}})$$\\
         we can get
         $$\frac{\partial J(\theta)}{\partial \theta_{i}}
@@ -45,18 +45,18 @@
         \end{split}
         \end{equation*} 
         known that 
-        $$ \sum_{i=1}^n \sum_{j=1}^n z_ix^{(k)}_ix^{(k)}_jz_j = (X^TZ)^2 \geq 0 $$\\
-        $$ \frac{e^{y^{(k)}\theta^{T}x^{(k)}}}{(1+e^{y^{(k)}\theta^{T}x^{(k)}})^2} > 0 $$\\
+        $$ \sum_{i=1}^n \sum_{j=1}^n z_ix^{(k)}_ix^{(k)}_jz_j = (X^TZ)^2 \geq 0 $$
+        $$ \frac{e^{y^{(k)}\theta^{T}x^{(k)}}}{(1+e^{y^{(k)}\theta^{T}x^{(k)}})^2} > 0 $$
         we can easily get $$ Z^THZ \geq 0 $$
     }
     \newpage
     \item 
     {
-        Firstly, we plot the original data \\
+        Firstly, we plot the original data
 
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.80\textwidth]{figure/original_data.png}
+            \includegraphics[width=0.80\textwidth]{figure/LogisticRegression/original_data.png}
         \end{figure}
 
         To implement Newton’s Method, we calculate the value of 
@@ -73,10 +73,102 @@
         Through 6 iterations, we finally get the result
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.80\textwidth]{figure/Iteration6.png}
+            \includegraphics[width=0.80\textwidth]{figure/LogisticRegression/Iteration6.png}
         \end{figure}
         and the $ \theta $ is  [-2.6205116,   0.76037154,  1.17194674].
     }
+
+    \end{enumerate}
+
+    \newpage
+    \section*{ Poisson regression and the exponential family}
+
+    \begin{enumerate}[label=(\alph*)]
+
+    \item 
+    Firstly, we get 
+    \begin{equation*} 
+        \begin{split}
+            p(y;\lambda) &= \frac{e^{-\lambda}\lambda^{y}}{y!} \\
+            &= \frac{1}{y!}exp(log\lambda^y - loge^\lambda) \\
+            &= \frac{1}{y!}exp(log\lambda y - \lambda) \\
+    \end{split}
+    \end{equation*} 
+    It's easy to know that
+    $$ log\lambda = \eta, \lambda = e^\eta $$
+    $$ T(y) = y $$
+    $$ a(\eta) = -e^\eta $$
+    $$ b(y) = \frac{1}{y!} $$
+    and Poisson distribution is in the exponential family.
+
+    \item 
+    Known that if $ Y \sim P(\lambda) $, then $ E[Y] = \lambda $ ,
+    \begin{equation*} 
+        \begin{split}
+            h_\theta(x) &= E[y|x;\theta] \\
+                        &= \lambda \\
+                        &= e^\eta = e^{\theta^Tx} \\
+        \end{split}
+    \end{equation*} 
+    so the response function for the family is 
+    $$ g(\eta) = e^\eta $$.
+
+    \item 
+    Firstly, we can get likelihood function $L(\theta)$
+    \begin{equation*} 
+        \begin{split}
+            L(\theta) &= \Pi_{k=1}^m P(y^{(k)}|x^{(k)};\lambda) \\
+                      &= \Pi_{k=1}^m \frac{e^{-\lambda}\lambda^{y^{(k)}}}{y^{(k)}!} \\
+        \end{split}
+    \end{equation*} 
+    Then, the log-likelihood function $l(\theta)$
+    \begin{equation*} 
+        \begin{split}
+            l(\theta) 
+            &= \sum_{k=1}^m (-logy^{(k)}!) + (-\lambda) + y^{(k)}log\lambda \\
+            &= \sum_{k=1}^m (-logy^{(k)}!) + (-e^{\theta^Tx^{(k)}}) + y^{(k)}\theta^Tx^{(k)} \\
+        \end{split}
+    \end{equation*} 
+
+    Then, we can get the derivative of the log-likelihood with respect to $\theta_i$
+    $$ \frac{\partial l(\theta)}{\partial \theta_i} 
+       = \sum_{k=1}^m (y^{(k)}-e^{\theta^Tx^{(k)}})x^{(k)}_i
+    $$
+    So, the stochastic gradient ascent learning rule is
+    $$ \theta_i = \theta_i + \alpha(y^{(k)}-e^{\theta^Tx^{(k)}})x^{(k)}_i
+    $$
+
+    \item 
+    
+    Firstly, we can know that
+    $$ p(y|x;\theta) = b(y)exp(\eta^Ty-a(\eta)) $$
+    then, for a simple training data $(x,y)$ in stochastic gradient ascent,
+    $$ \frac{\partial p(y|x;\theta)}{\partial \theta_i} 
+        = x_i(y-\frac{\partial a(\eta)}{\partial \eta})
+    $$
+    known that,
+    $$ \int_{y}p(y|x;\eta) = 1 $$
+    we can imply derivation in both sides, and get
+    $$ \int_{y}p(y|x;\eta)(y-\frac{\partial a(\eta)}{\partial \eta}) = 0 $$
+    finally, we get
+    $$ \frac{\partial a(\eta)}{\partial \eta} = \int_{y}p(y|x;\eta)y = h_\theta(x) $$
+    so the gradient we get is
+    $$ \frac{\partial p(y|x;\theta)}{\partial \theta_i} 
+        = x_i(y-h_\theta(x))
+    $$
+    the update rule is
+    $$ \theta_i = \theta_i - \alpha(h_\theta(x)-y)x_i $$
+    \end{enumerate}
+
+    
+
+    \newpage
+    \section*{Gaussian discriminant analysis   }
+    \begin{enumerate}[label=(\alph*)]
+    
+    \item 
+
+    gg
 
     \end{enumerate}
 
