@@ -3,7 +3,7 @@ INPUT e:/texlive/2018/texmf.cnf
 INPUT e:/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assig1/assig1.tex
-OUTPUT assig1.log
+OUTPUT .//assig1.log
 INPUT e:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT e:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT e:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
@@ -68,9 +68,9 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
-INPUT assig1.aux
-INPUT assig1.aux
-OUTPUT assig1.aux
+INPUT .//assig1.aux
+INPUT .//assig1.aux
+OUTPUT .//assig1.aux
 INPUT e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -107,7 +107,7 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT assig1.pdf
+OUTPUT .//assig1.pdf
 INPUT e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./figure/LogisticRegression/original_data.png
 INPUT ./figure/LogisticRegression/original_data.png
@@ -119,7 +119,7 @@ INPUT ./figure/LogisticRegression/Iteration6.png
 INPUT ./figure/LogisticRegression/Iteration6.png
 INPUT ./figure/LogisticRegression/Iteration6.png
 INPUT ./figure/LogisticRegression/Iteration6.png
-INPUT assig1.aux
+INPUT .//assig1.aux
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

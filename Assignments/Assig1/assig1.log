@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  12 JAN 2019 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  16 JAN 2019 10:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -177,7 +177,7 @@ File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
- (./assig1.aux)
+ (.//assig1.aux)
 \openout1 = `assig1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -241,20 +241,35 @@ File: figure/LogisticRegression/Iteration6.png Graphic file (type png)
 <use figure/LogisticRegression/Iteration6.png>
 Package pdftex.def Info: figure/LogisticRegression/Iteration6.png  used on input line 76.
 (pdftex.def)             Requested size: 375.80544pt x 281.86288pt.
- [3 <./figure/LogisticRegression/Iteration6.png (PNG copy)>] [4] [5] [6] (./assig1.aux) ) 
+ [3 <./figure/LogisticRegression/Iteration6.png (PNG copy)>] [4] [5]
+Overfull \hbox (71.48279pt too wide) detected at line 185
+[]
+ []
+
+
+Overfull \hbox (29.3747pt too wide) detected at line 185
+[]
+ []
+
+
+Overfull \hbox (66.77394pt too wide) detected at line 195
+\OML/cmm/m/it/12 l\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R; ^^V[]; ^^V[]; \OT1/cmr/m/n/12 ^^F) = \OML/cmm/m/it/12 mlog\OT1/cmr/m/n/12 ([]) + \OML/cmm/m/it/12 m[]log^^^ \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 m[]log\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 ) + [](\OMS/cmsy/m/n/12 ^^@[]\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]^^F[](\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )
+ []
+
+[6] [7] (.//assig1.aux) ) 
 Here is how much of TeX's memory you used:
- 4142 strings out of 492616
- 57840 string characters out of 6132769
+ 4143 strings out of 492616
+ 57857 string characters out of 6132769
  128989 words of memory out of 5000000
  7996 multiletter control sequences out of 15000+600000
  10425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,17n,32p,312b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,17n,32p,1754b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 <e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on assig1.pdf (6 pages, 145128 bytes).
+Output written on .//assig1.pdf (7 pages, 151283 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

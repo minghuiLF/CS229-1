@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1547296175 "f:/Desktop/Machine Learning/CS229/Assignments/Assig1/assig1.tex" "assig1.pdf" "assig1" 1547296177
-  "assig1.aux" 1547296177 8 a94a2480d3289e625eea47cd1b285758 ""
-  "assig1.tex" 1547296174 5761 c9552a88e184f32880dfff2f30ab7d31 ""
+["pdflatex"] 1547606037 "f:/Desktop/Machine Learning/CS229/Assignments/Assig1/assig1.tex" "assig1.pdf" "assig1" 1547606038
+  "assig1.aux" 1547606038 8 a94a2480d3289e625eea47cd1b285758 ""
+  "assig1.tex" 1547606035 9642 33b0f827c7434fb58145b4d7c595ab96 ""
   "e:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1546784809 3332 103109f5612ad95229751940c61aada0 ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1546781523 1004 54797486969f23fa377b128694d548df ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1546781523 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -76,10 +76,10 @@
   "e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1546790598 3173767 7100bf788d9615b497d8659339322484 ""
   "e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1546790760 4223236 f561f954ddab34a29fc242f6e5afb338 ""
   "e:/texlive/2018/texmf.cnf" 1546790491 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assig1/assig1.tex" 1547296174 5761 c9552a88e184f32880dfff2f30ab7d31 ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assig1/assig1.tex" 1547606035 9642 33b0f827c7434fb58145b4d7c595ab96 ""
   "figure/LogisticRegression/Iteration6.png" 1547262826 14542 4a82d2ec34417e56889bd47011190c4d ""
   "figure/LogisticRegression/original_data.png" 1546819606 10645 492422e0efe28b86d18661b3a27a4364 ""
   (generated)
-  "assig1.log"
   "assig1.aux"
   "assig1.pdf"
+  "assig1.log"

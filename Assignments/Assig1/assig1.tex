@@ -167,10 +167,50 @@
     \begin{enumerate}[label=(\alph*)]
     
     \item 
+    Firstly, we have
+    \begin{equation*} 
+        \begin{split}
+            p(y=1|x;\phi, \Sigma, \mu_1, \mu_-1)
+             &= \frac{p(x|y=1)p(y=1)}{p(x|y=1)p(y=1)+p(x|y=-1)p(y=-1)}  \\
+             &= \frac{1}{1+\frac{p(x|y=-1)p(y=-1)}{p(x|y=1)p(y=1)}} \\
+        \end{split}
+    \end{equation*}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    apply such calculattion, we can get
+    \begin{equation*} 
+        \begin{split}
+            p(y=1|x;\phi, \Sigma, \mu_1, \mu_-1)
+             &= \frac{1}{1+exp(-y(ln\frac{\phi}{1-\phi}+\frac{1}{2}((x-\mu_{-1})^T\Sigma^{-1}(x-\mu_{-1})-(x-\mu_{1})^T\Sigma^{-1}(x-\mu_{1}))} \\
+             &= \frac{1}{1+exp(-y(ln\frac{\phi}{1-\phi}+(\mu_1-\mu_{-1})\Sigma^{-1}x+\frac{1}{2}(\mu_{-1}\Sigma^{-1}\mu_{-1}-\mu_{1}\Sigma^{-1}\mu_{1})))} \\
+        \end{split}
+    \end{equation*} 
+    It's the same when $y=-1$. They can be written in the form of a logistic function where
+    $$ \theta = (\mu_1-\mu_{-1})\Sigma^{-1} $$
+    $$ \theta_0 = ln\frac{\phi}{1-\phi} + 1/2(\mu_{-1}\Sigma^{-1}\mu_{-1}-\mu_{1}\Sigma^{-1}\mu_{1}) $$
 
-    gg
+    \item 
+    Let $m_1$ be the number of samples with label $y=1$, and $m_{-1}$ be the number of samples with label $y=-1$.
+    The log-likelihood function is
+    $$ l(\theta,\mu_{-1}, \mu_1, \Sigma)
+       = mlog(\frac{1}{(2\pi)^{n/2}|\Sigma|^{1/2}})+m_1log\phi+m_{-1}log(1-\phi)
+        +\sum_{i=1}^{m}(-\frac{1}{2})(x^{(i)}-\mu_{y^{(i)}})^T\Sigma^{-1}(x^{(i)}-\mu_{y^{(i)}}) $$
+    so we can derive the partial derivate of each parameter,
+    $$ \frac{\partial l}{\partial \phi} = \frac{m_1-m\phi}{\phi(1-\phi)}$$
+    $$ \frac{\partial l}{\partial \mu_1} = \frac{\sum_{i=1}^{m_1}(x^{(i)}-\mu_1)}{\Sigma}$$
+    $$ \frac{\partial l}{\partial \mu_{-1}} = \frac{\sum_{j=1}^{m_1}(x^{(j)}-\mu_{-1})}{\Sigma}$$
+    $$ \frac{\partial l}{\partial \Sigma} = \frac{-\frac{1}{2}(m\Sigma-\sum_{i=1}^{m}(x^{(i)}-\mu_{y^(i)})^T(x^{(i)}-\mu_{y^(i)}))}{\Sigma^{2}}$$
+    let these partial derivates to be zero, we can get the maximum likelihood estimates the same as problem statement. 
 
+    \item
+    As shown in (b)
     \end{enumerate}
 
+    \newpage
+    \section*{ Linear invariance of optimization algorithms  }
+    \begin{enumerate}[label=(\alph*)]
+    
+    \item
+
+
+    \end{enumerate}  
 
 \end{document}
