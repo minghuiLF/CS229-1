@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  17 JAN 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  17 JAN 2019 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -277,20 +277,31 @@ File: figure/Regression4Quasar/b_iii.png Graphic file (type png)
 <use figure/Regression4Quasar/b_iii.png>
 Package pdftex.def Info: figure/Regression4Quasar/b_iii.png  used on input line 280.
 (pdftex.def)             Requested size: 375.80544pt x 250.54478pt.
- [9 <./figure/Regression4Quasar/b_ii.png (PNG copy)> <./figure/Regression4Quasar/b_iii.png (PNG copy)>] [10] (.//assig1.aux) ) 
+ [9 <./figure/Regression4Quasar/b_ii.png (PNG copy)> <./figure/Regression4Quasar/b_iii.png (PNG copy)>]
+<figure/Regression4Quasar/c_ii.png, id=47, 1003.75pt x 602.25pt>
+File: figure/Regression4Quasar/c_ii.png Graphic file (type png)
+<use figure/Regression4Quasar/c_ii.png>
+Package pdftex.def Info: figure/Regression4Quasar/c_ii.png  used on input line 294.
+(pdftex.def)             Requested size: 375.80544pt x 225.48479pt.
+<figure/Regression4Quasar/c_iii.png, id=48, 1003.75pt x 602.25pt>
+File: figure/Regression4Quasar/c_iii.png Graphic file (type png)
+<use figure/Regression4Quasar/c_iii.png>
+Package pdftex.def Info: figure/Regression4Quasar/c_iii.png  used on input line 300.
+(pdftex.def)             Requested size: 375.80544pt x 225.48479pt.
+ [10 <./figure/Regression4Quasar/c_ii.png (PNG copy)> <./figure/Regression4Quasar/c_iii.png (PNG copy)>] (.//assig1.aux) ) 
 Here is how much of TeX's memory you used:
- 4155 strings out of 492616
- 58322 string characters out of 6132769
+ 4163 strings out of 492616
+ 58636 string characters out of 6132769
  128989 words of memory out of 5000000
- 8008 multiletter control sequences out of 15000+600000
+ 8016 multiletter control sequences out of 15000+600000
  10425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,17n,32p,1754b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,17n,32p,1754b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 <e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on .//assig1.pdf (10 pages, 296401 bytes).
+Output written on .//assig1.pdf (10 pages, 403412 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
