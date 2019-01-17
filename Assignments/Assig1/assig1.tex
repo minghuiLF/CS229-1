@@ -209,8 +209,86 @@
     \begin{enumerate}[label=(\alph*)]
     
     \item
+    
+    According to Newton’s Method, we know that
+    $$ x^{(i+1)} = x^{(i)} - \frac{f(x^{(i)})}{f'(x^{i})} $$
+    So
+    \begin{equation*} 
+        \begin{split}
+        z^{(i+1)} &= z^{(i)} - \frac{g(z^{(i)})}{g'(z^{(i)})} \\
+                  &= z^{(i)} - \frac{f(Az^{(i)})}{f'(Az^{(i)})} \\
+                  &= A^{(-1)}x^{(i)} - A^{(-1)}(x^{(i)}-x^{(i+1)}) \\
+                  &= A^{(-1)}x^{(i+1)}
+        \end{split}
+    \end{equation*} 
+    so that Newton’s Method is invariant to linear reparameterizations.
 
+    \item
+    In gradient descent algorithm
+    \begin{equation*} 
+        \begin{split}
+        z^{(i+1)} &= z^{(i)} - \alpha g'(z^{(i)}) \\
+                  &= A^{(-1)} x^{(i)} - A( x^{(i)} - x^{(i+1)} ) \\
+                  &\neq A^{(-1)}x^{(i+1)}
+        \end{split}
+    \end{equation*} 
 
     \end{enumerate}  
 
+    \newpage
+    \section*{ Regression for denoising quasar spectra}
+    \begin{enumerate}[label=(\alph*)]
+    
+    \item
+    \begin{enumerate}[label=(\roman*)]
+        \item
+        We know that the form can be written in
+        $$ \sum_{i,j} W_{ij}(\Theta^Tx^{(i)}-y^{i})(\Theta^Tx^{(j)}-y^{j}) $$
+        to let them fit, just let $W_{ii} = \frac{1}{2}w^{(i)}$
+        \item
+        Firstly, we get the derivative
+        $$\bigtriangledown_{\theta}J(\theta) = 2(W(X\theta-\vec y)^TX)$$
+        let the derivative be zero, we get
+        $$ \theta =  (X^TWX)^{-1}X^TW\vec{y} $$
+        since $W$ is normal, $\theta$ is what we want.
+        \item
+        Write the log-likelihood function
+        $$ l = \sum_{i=1}^m log\frac{1}{\sqrt{2\pi}\sigma^{(i)}} 
+             - \sum_{i=1}^m \frac{(y^{(i)}-\theta^Tx^{(i)})^2}{2(\sigma^{(i)})^2} $$
+        The left part is a constant, and the right part need to be minimized.\\
+        Let $w_{i}=\frac{1}{2(\sigma^{(i)})^2}$, we get a form same as the weight linear regression.\\
+    \end{enumerate}  
+    
+    \item
+    \begin{enumerate}[label=(\roman*)]
+        \item
+        Let $\theta = (X^TX)^{-1}X^T \vec{y}$, we can get the result
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.80\textwidth]{figure/Regression4Quasar/b_i.png}
+        \end{figure}
+        \item
+        Let $\theta = (X^TWX)^{-1}X^TW \vec{y}$, we can get the result
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.60\textwidth]{figure/Regression4Quasar/b_ii.png}
+        \end{figure}
+        \item
+        let $\tau$ be different value, we can get different fitting result.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.80\textwidth]{figure/Regression4Quasar/b_iii.png}
+        \end{figure}
+        From the figure above, we know that, when $\tau = 1$, we get a perfect fitting result, but it's likely to be overfitting.\\
+        As $\tau$ grows, the fitting gets worse and worse. So if we want to get a good result, we'd better trade off and select $\tau = 10$ (just an example) to get a balanced performance.
+
+    \end{enumerate}
+    \item
+    \begin{enumerate}[label=(\roman*)]
+        \item Just apply locally weighted linear regression to all 200 samples
+        \item 
+    
+    \end{enumerate}
+
+    \end{enumerate}  
 \end{document}
