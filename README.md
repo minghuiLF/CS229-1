@@ -10,7 +10,7 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
 
 ### Accomplishment 
 - Assignment #1 [ OK ]
-  - class notes: [notes1](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes1.pdf) [notes2](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes2.pdf)[notes3](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes3.pdf)
+  - class notes: [notes1](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes1.pdf) [notes2](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes2.pdf) [notes3](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes3.pdf)
   - problem set: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assig1/ps1.pdf)
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assig1/assig1.pdf)
   - source code: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assig1/assig1.py)
