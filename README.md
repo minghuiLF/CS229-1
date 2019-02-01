@@ -16,8 +16,8 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
 - Assignment #2 [ on the fly]
   - problem set: [ps2](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/ps2.pdf)
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/assignment2.pdf)
-  - source code: [Logistic Regression: Training stability](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/Q1/lr_debug.py)
-  - 
+  - source code: 
+    - Logistic Regression: Training stability: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/Q1/lr_debug.py)
 
 ### Tools
 Python 3.6.4 <br>
