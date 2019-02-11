@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1549873186 "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.tex" "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.pdf" "assignment2" 1549873188
+["pdflatex"] 1549892008 "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.tex" "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.pdf" "assignment2" 1549892009
   "Q1/training_dsA.png" 1549006326 33158 0468d1b560be002b2a95ee9b22561028 ""
   "Q1/training_dsB.png" 1549006338 36048 2ffa4cb31b453665c25a13f532d6e46c ""
-  "assignment2.aux" 1549873187 268 8174983368b4f9a427525077c768a741 ""
-  "assignment2.tex" 1549873185 4148 099c50b04af99427eb6628119c00f5f8 ""
+  "assignment2.aux" 1549892009 268 8174983368b4f9a427525077c768a741 ""
+  "assignment2.tex" 1549892006 5570 44646ec47a9c2b019f557694abfd83be ""
   "e:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1546784809 3332 103109f5612ad95229751940c61aada0 ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1546781523 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1546781523 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -82,11 +82,11 @@
   "e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1546790598 3173767 7100bf788d9615b497d8659339322484 ""
   "e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1546790760 4223236 f561f954ddab34a29fc242f6e5afb338 ""
   "e:/texlive/2018/texmf.cnf" 1546790491 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.aux" 1549873187 268 8174983368b4f9a427525077c768a741 ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.tex" 1549873185 4148 099c50b04af99427eb6628119c00f5f8 ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.aux" 1549892009 268 8174983368b4f9a427525077c768a741 ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.tex" 1549892006 5570 44646ec47a9c2b019f557694abfd83be ""
   (generated)
-  "assignment2.log"
-  "assignment2.pdf"
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.pdf"
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.log"
   "assignment2.aux"
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.log"
+  "assignment2.pdf"
+  "assignment2.log"
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.pdf"

@@ -74,8 +74,32 @@
     we get $$p(\theta_{MAP})\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{MAP}) < p(\theta_{ML})\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{ML})$$
     which is contradicted with the definition of $\theta_{MAP}$.
 
-    \section*{ Constructing kernels }
+    \section*{Constructing kernels}
+    According to Mercer's theorem, if $K(x,z)$ is a kernel, then we have $\mu^T M \mu \geq 0$.
     \begin{enumerate}[label=(\alph*)]
+        \item Yes. Since $K_1 \geq 0$ and $K_2 \geq 0$, so $K_1 + K_2 \geq 0$.
+        \item No. $K_1 \geq 0$ and $K_2 \geq 0$ doesn't necessarily mean $K_1 - K_2 \geq 0$.
+        \item If $a \geq 0$, the answer is 'Yes'. 
+        \item If $a \geq 0$, the answer is 'No'.
         \item 
+        Since $K_1$ and $K_2$ are valid kernels, we can let $\phi_1$ and $\phi_2$ be their feature map function and $\phi$ be K's.
+        Then we have
+        \begin{equation*}
+            \begin{split}
+                K(x,z) &= \phi_1(x)^T\phi_1(z)\phi_2(x)^T\phi_2(z) \\
+                &= \sum_{i,j} \phi_1(x)_i\phi_1(z)_i\phi_2(x)_j\phi_2(z)_j \\
+                &= \sum_{i,j} [\phi_1(x)_i\phi_2(x)_j][\phi_2(x)_j\phi_1(z)_i]
+            \end{split}
+        \end{equation*}
+        If let $\phi_{i,j} =  {\phi_1}_i{\phi_2}_j $, then we can easily write the inner product formula of $K(x,z)$.
+        Through the definition of Kernel, we know that $K(x,z)$ is a valid kernel.
+        \item Yes, since $K(x,z) = (\sum_{i=1} \mu_i f(x^{(i)}))^2 \geq 0$.
+        \item Yes, since $K(x,z) = \sum_{i,j} \mu_i \mu_j K_3 \geq 0$.
+        \item Yes, since $K(x,z) = \sum_{i,j} \mu_i \mu_j (\sum_t a_t {K_1}^t) \geq 0$.
+    \end{enumerate}
+
+    \section*{Kernelizing the Perceptron}
+    \begin{enumerate}[label=(\alph*)]
+        \item gg
     \end{enumerate}
 \end{document}
