@@ -117,9 +117,21 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment2/assignment2.aux
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb

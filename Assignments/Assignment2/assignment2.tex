@@ -41,12 +41,41 @@
         \item No. It doesn't change the linearly separability.
         \item Yes. It will expand the feature space, which may let the data linearly separable.
     \end{enumerate}
-    \item Yes. It will put the data into a new feature space, where the data may become linearly separable.
+    \item It's vulnerable. With hinge loss, using slack variables, the formulation will be changed into what's be induced in class.
     \end{enumerate}
 
     \newpage
     \section*{Model Calibration}
     \begin{enumerate}[label=(\alph*)]
-    \item gg
+    \item Firstly, we write the log-likelihood function of Logistic Regression:
+    $$J(\theta) = \sum_{i=1}^m (y^{(i)}logh(x^{(i)})+(1-y^{(i)})log(1-h(x^{(i)})))$$
+    Then, let $$ \frac{\partial J(\theta)}{\partial \theta} = 0 $$ 
+    We get $$\sum_{i=1}^m(y^{(i)}-h(x^{(i)}))x^{(i)}_j = 0$$
+    Because $x_0 = 1$ for all training examples, so $|X_{m\times n}|\neq 0$ and $y^{(i)}-h(x^{(i)}) = 0$, which means
+    $$\sum_{i=1}^mh(x^{(i)}) = \boldsymbol{1}\{y^{(i)}=1\}$$
+    The property described in problem statement gets proved.
+    \item Perfect calibration means the model has a good performance in training data, which doesn't ensure the model achieves perferct accuray in other conditions.
+    However, once a model achieves perferct accuray, it should be perferctly calibrated.
+    \item The new log-likelihood function will become
+    $$J'(\theta) = J(\theta)+c||\theta||^2 $$
+    Let $$ \frac{\partial J'(\theta)}{\partial \theta} = 0 $$ 
+    We get $$ \frac{\partial J(\theta)}{\partial \theta} +2c\theta = 0 $$
+    which means $$\sum_{i=1}^m(y^{(i)}-h(x^{(i)}))x^{(i)}_j +2c\theta_0= 0$$
+    and $$\sum_{i=1}^mh(x^{(i)}) = \boldsymbol{1}\{y^{(i)}=1\}+2c\theta_0$$
+    The left part in Model Calibration equation will get $2c\theta_0$ bias.
+    \end{enumerate}
+
+    \newpage
+    \section*{Bayesian Logistic Regression and weight decay }
+    Assume that $||\theta_{MAP}||_2 > ||\theta_{ML}||_2$,
+    we can get $$p(\theta_{MAP}) < p(\theta_{ML})$$
+    thus $$p(\theta_{MAP})\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{MAP}) < p(\theta_{ML})\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{MAP})$$
+    with $$\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{MAP}) < \Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{ML})$$
+    we get $$p(\theta_{MAP})\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{MAP}) < p(\theta_{ML})\Pi_{i=1}^{m}p(y^{(i)}|x^{(i)};\theta_{ML})$$
+    which is contradicted with the definition of $\theta_{MAP}$.
+
+    \section*{ Constructing kernels }
+    \begin{enumerate}[label=(\alph*)]
+        \item 
     \end{enumerate}
 \end{document}
