@@ -10,16 +10,14 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
 
 ### Accomplishment 
 - Assignment #1 [ OK ]
-  - class notes: [notes1](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes1.pdf) [notes2](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes2.pdf) [notes3](https://github.com/LFhase/CS229/blob/master/Notes%5BFall%202018%5D/cs229-notes3.pdf)
-  - problem set: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assig1/ps1.pdf)
-  - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assig1/assig1.pdf)
-  - source code: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assig1/assig1.py)
+  - problem set: [ps1](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment1/ps1.pdf)
+  - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment1/assig1.pdf)
+  - source code: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment1/assig1.py)
 - Assignment #2 [ on the fly]
-  - class notes:
-  - problem set:
-  - solution:
-  - source code:
-  - 
+  - problem set: [ps2](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/ps2.pdf)
+  - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/assignment2.pdf)
+  - source code: 
+    - Logistic Regression: Training stability: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/Q1/lr_debug.py)
 
 ### Tools
 Python 3.6.4 <br>
