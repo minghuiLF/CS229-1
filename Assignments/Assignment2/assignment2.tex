@@ -100,6 +100,56 @@
 
     \section*{Kernelizing the Perceptron}
     \begin{enumerate}[label=(\alph*)]
-        \item gg
+        \item With kernel trick, we can use $K(\theta,\phi(x))$ to implicitly represent $\theta$.
+        \item Thus, to make a prediction, we can use 
+        $$h_{\theta^{(i)}}(x^{(i+1)}) = g(K(\theta^{(i)},\phi(x^{(i)})))$$
+        \item Just use
+        \begin{equation*}
+            \begin{split}
+            K(\theta^{(i+1)},\phi(x^{(i+1)})) &= K(\theta^{(i)},\phi(x^{(i)})) \\
+            &+  a\boldsymbol{1}\{g(K(\theta^{(i)},\phi(x^{(i)})))<0\}y^{(i+1)}K(\phi(x^{(i+1)},\phi(x^{(i+1)}))
+            \end{split}
+        \end{equation*}
     \end{enumerate}
+
+
+    \section*{Spam classification}
+    \begin{enumerate}[label=(\alph*)]
+        \item With Naive Bayes based on multinomial event model and Laplace Smoothing, a spam classifier is trained whose error is 0.0163.
+        \\ To due with underflow, change the prediction formula to 
+        \begin{equation*}
+            \begin{split}
+                prob_{notspam} &= \frac{1}{1+\frac{\Phi_1}{\Phi_0}} \\
+                &=  \frac{1}{1+exp(log(\Phi_1)-log(\Phi_0))} 
+            \end{split}
+        \end{equation*}
+        \item The 5 tokens who are most indicative of the SPAM class :\\
+        \begin{table}[h]
+            \centering
+            \begin{tabular}{c c c}
+                Rank & Token & Indication Value \\
+                \hline
+                1 & indication & 7.0258 \\
+                2 & spam & 6.9709 \\
+                3 & unsubscrib & 5.4225 \\
+                4 & ebai & 5.1986 \\
+                5 & valet & 5.1909 \\
+                \end{tabular}
+        \end{table}
+        \newpage 
+        \item The Naive Bayes result is as picture shows:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.70\textwidth]{Q6/nb_error.png}
+        \end{figure}
+        When training-set size is 1400, the algorithm has the best performance.
+        \item The SVM result is as picture shows:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.70\textwidth]{Q6/svm_error.png}
+        \end{figure}
+        \item From two pictures above we can see that, SVM performs better compared to NB in terms of minimum generalization error.
+        However, in terms of average generalization error, NB performs better and has a smoother function curve.
+    \end{enumerate}
+
 \end{document}
