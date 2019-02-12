@@ -1,0 +1,92 @@
+PWD f:/Desktop/Machine Learning/CS229/Assignments/Assignment3
+INPUT e:/texlive/2018/texmf.cnf
+INPUT e:/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.tex
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.log
+INPUT e:/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT e:/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT e:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+INPUT e:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+INPUT e:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT e:/texlive/2018/texmf-dist/tex/latex/preprint/fullpage.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/preprint/fullpage.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grffile.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grffile.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux
+INPUT e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf
+INPUT e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb

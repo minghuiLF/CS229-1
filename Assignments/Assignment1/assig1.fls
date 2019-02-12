@@ -1,9 +1,9 @@
-PWD f:/Desktop/Machine Learning/CS229/Assignments/Assig1
+PWD f:/Desktop/Machine Learning/CS229/Assignments/Assignment1
 INPUT e:/texlive/2018/texmf.cnf
 INPUT e:/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assig1/assig1.tex
-OUTPUT .//assig1.log
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.tex
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.log
 INPUT e:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT e:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT e:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
@@ -68,9 +68,9 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
-INPUT .//assig1.aux
-INPUT .//assig1.aux
-OUTPUT .//assig1.aux
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.aux
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.aux
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.aux
 INPUT e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT e:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -107,39 +107,39 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT .//assig1.pdf
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.pdf
 INPUT e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./figure/LogisticRegression/original_data.png
-INPUT ./figure/LogisticRegression/original_data.png
-INPUT ./figure/LogisticRegression/original_data.png
-INPUT ./figure/LogisticRegression/original_data.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/original_data.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/original_data.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/original_data.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/original_data.png
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT ./figure/LogisticRegression/Iteration6.png
-INPUT ./figure/LogisticRegression/Iteration6.png
-INPUT ./figure/LogisticRegression/Iteration6.png
-INPUT ./figure/LogisticRegression/Iteration6.png
-INPUT ./figure/Regression4Quasar/b_i.png
-INPUT ./figure/Regression4Quasar/b_i.png
-INPUT ./figure/Regression4Quasar/b_i.png
-INPUT ./figure/Regression4Quasar/b_i.png
-INPUT ./figure/Regression4Quasar/b_ii.png
-INPUT ./figure/Regression4Quasar/b_ii.png
-INPUT ./figure/Regression4Quasar/b_ii.png
-INPUT ./figure/Regression4Quasar/b_ii.png
-INPUT ./figure/Regression4Quasar/b_iii.png
-INPUT ./figure/Regression4Quasar/b_iii.png
-INPUT ./figure/Regression4Quasar/b_iii.png
-INPUT ./figure/Regression4Quasar/b_iii.png
-INPUT ./figure/Regression4Quasar/c_ii.png
-INPUT ./figure/Regression4Quasar/c_ii.png
-INPUT ./figure/Regression4Quasar/c_ii.png
-INPUT ./figure/Regression4Quasar/c_ii.png
-INPUT ./figure/Regression4Quasar/c_iii.png
-INPUT ./figure/Regression4Quasar/c_iii.png
-INPUT ./figure/Regression4Quasar/c_iii.png
-INPUT ./figure/Regression4Quasar/c_iii.png
-INPUT .//assig1.aux
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/Iteration6.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/Iteration6.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/Iteration6.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/LogisticRegression/Iteration6.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_i.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_i.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_i.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_i.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/b_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_ii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/figure/Regression4Quasar/c_iii.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment1/assig1.aux
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
