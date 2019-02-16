@@ -69,9 +69,123 @@
     \end{enumerate}
 
     \section*{EM for MAP estimation}
+    The whole process is the same like what discussed in lecture notes. \\
+    Firstly, we have log-likelihood:
+    \begin{equation*}
+        \begin{split}
+            l(\theta) &= \sum_{i=1}^m log[\sum_{z^{(i)}}Q_i(z^{(i)})\frac{p(x^{(i)},z^{(i)}|\theta)}{Q_i(z^{(i)})}] + logp(\theta) \\
+            &\geq \sum_{i=1}^m \sum_{z^{(i)}}Q_i(z^{(i)})log\frac{p(x^{(i)},z^{(i)}|\theta)}{Q_i(z^{(i)})} + logp(\theta)
+        \end{split}
+    \end{equation*}
+    So if we set$$Q_i(z^{(i)})=p(z^{(i)}|x^{(i)},\theta)$$
+    According to Jensen's Inequality, we have
+    $$l(\theta)=\sum_{i=1}^m \sum_{z^{(i)}}Q_i(z^{(i)})log\frac{p(x^{(i)},z^{(i)}|\theta)}{Q_i(z^{(i)})} + logp(\theta)$$
+    Then we get EM-step as below: \\
+    E-step:$$Q_i(z^{(i)})=p(z^{(i)}|x^{(i)},\theta)$$
+    M-step:$$\theta={argmax}_{\theta}[\sum_{i=1}^m \sum_{z^{(i)}}Q_i(z^{(i)})log\frac{p(x^{(i)},z^{(i)}|\theta)}{Q_i(z^{(i)})} + logp(\theta)]$$
+    In our assumption, the M-step is tractable. Then we have
+    \begin{equation*}
+        \begin{split}
+            l(\theta^{(t+1)}) 
+            &\geq \sum_{i=1}^m \sum_{z^{(i)}}Q_i(z^{(i)})log\frac{p(x^{(i)},z^{(i)}|\theta^{(t+1)})}{Q_i(z^{(i)})} + logp(\theta^{(t+1)}) \\
+            &\geq \sum_{i=1}^m \sum_{z^{(i)}}Q_i(z^{(i)})log\frac{p(x^{(i)},z^{(i)}|\theta^{(t)})}{Q_i(z^{(i)})} + logp(\theta^{(t)}) \\
+            &= l(\theta^{(t)}) 
+        \end{split}
+    \end{equation*}
+    The likelihood will increase monotonically with each iteration of the algorithm.
+
+    \newpage
+    \section*{EM application}
     \begin{enumerate}[label=(\alph*)]
-        \item Using Chain Rule, we know
+        \item \begin{enumerate}[label=(\roman*)]
+            \item Since we have $x^{(pr)} = y^{(pr)} + z^{(pr)} + \epsilon^{(pr)}$, then $X\sim N(\mu_p+\nu_r,\sigma^2+\sigma_p^2+\tau_r^2)$
+            So the joint distribution have the mean vector and covariance matrix as below:
+            $$
+            \left[\begin{matrix}
+                \mu_p \\
+                \nu_r \\
+                \mu_p+\nu_r \\
+            \end{matrix}\right]
+            $$ 
+            and
+            $$
+            \left[\begin{matrix}
+                \sigma_p^2  & 0 & \sigma_p^2 \\
+                0 & \tau_r^2 & \tau_r^2 \\
+                \sigma_p^2 & \tau_r^2 & \sigma^2+\sigma_p^2+\tau_r^2\\
+            \end{matrix}\right]
+            $$ 
+            \item Using the formula in the notes, we have the mean vector and covariance matrix as below:
+            $$
+            \mu_Q = 
+            \left[\begin{matrix}
+                \mu_p \\
+                \nu_r \\
+            \end{matrix}\right]
+            +
+            \left[\begin{matrix}
+                \sigma_p^2 \\
+                \tau_r^2 \\
+            \end{matrix}\right]\frac{x^{(pr)}-(\mu_p+\nu_r)}{\sigma^2+\sigma_p^2+\tau_r^2}
+            $$ 
+            and
+            $$
+            \Sigma_Q = 
+            \left[\begin{matrix}
+                \sigma_p^2  & 0  \\
+                0 & \tau_r^2 \\
+            \end{matrix}\right]
+            -
+            \left[\begin{matrix}
+                \sigma_p^2 \\
+                \tau_r^2 \\
+            \end{matrix}\right]\frac{            
+                \left[\begin{matrix}
+                    \sigma_p^2 & \tau_r^2
+            \end{matrix}\right]}{\sigma^2+\sigma_p^2+\tau_r^2}
+            $$
+            The expression is:
+            $$Q_{pr}(y^{(pr)},z^{(pr)}) = \frac{1}{\sqrt{{2\pi}^2|\Sigma_Q|}}exp(-\frac{1}{2}
+            (\left[\begin{matrix}
+                y^{(pr)} \\
+                z^{(pr)} \\
+            \end{matrix}\right]-\mu_Q)^T 
+            \Sigma_Q^{-1}
+            (\left[\begin{matrix}
+                y^{(pr)} \\
+                z^{(pr)} \\
+            \end{matrix}\right]-\mu_Q)
+            )$$
+        \end{enumerate}
+        \item We want to maxmize the lower bound of the log-likelihood function:
+        \begin{equation*}
+            \begin{split}
+                \Theta &= argmax_\Theta \sum_p \sum_r E_{(y^{(pr)},z^{(pr)})\sim Q_{pr}}[logp(x^{(pr)},y^{(pr)},z^{(pr)})] \\
+                &= argmax_\Theta  \sum_p \sum_r E
+                [
+                    log\frac{1}{{2\pi}^{3/2}\sigma \sigma_p \tau_r}
+                    -\frac{1}{2\sigma_p^2}(y^{(pr)}-\mu_p)^2
+                    -\frac{1}{2\tau_r^2}(z^{(pr)}-\nu_r)^2\\
+                    &-\frac{1}{2\sigma^2}(x^{(pr)}-y^{(pr)}-z^{(pr)})^2
+                ]\\
+                &=argmax_\Theta  \sum_p \sum_r E
+                [
+                    log\frac{1}{\sigma_p \tau_r}
+                    -\frac{1}{2\sigma_p^2}(y^{(pr)}-\mu_p)^2
+                    -\frac{1}{2\tau_r^2}(z^{(pr)}-\nu_r)^2
+                ]
+            \end{split}
+        \end{equation*}
+        Then we calculate the derivatives of each parameter and set them to zero to get the update value.
+        $$\mu_p = \frac{1}{PR} \sum_p \sum_r {\mu_Q}_1$$
+        $$\nu_r = \frac{1}{PR} \sum_p \sum_r {\mu_Q}_2$$
+        $$\sigma_p^2 =\frac{1}{PR}\sum_p \sum_r ({\Sigma_Q}_{11}+{\mu_Q}_1^2-2{\mu_Q}_1\mu_p+\mu_p^2) $$
+        $$\tau_r^2 =\frac{1}{PR}\sum_p \sum_r ({\Sigma_Q}_{22}+{\mu_Q}_2^2-2{\mu_Q}_2\nu_r+\nu_r^2) $$
     \end{enumerate}
 
-
+    \section*{KL divergence and Maximum Likelihood}
+    \begin{enumerate}[label=(\alph*)]
+        \item  gg
+        
+    \end{enumerate}
 \end{document}
