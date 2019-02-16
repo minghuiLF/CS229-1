@@ -185,7 +185,34 @@
 
     \section*{KL divergence and Maximum Likelihood}
     \begin{enumerate}[label=(\alph*)]
-        \item  gg
-        
+        \item  
+        \begin{equation*}
+            \begin{split}
+                KL(P||Q) &= \sum_x P(x)-log\frac{Q(X)}{P(X)}\\
+                &\geq  -log\sum_x(P(x)\frac{Q(X)}{P(X)})\\
+                &= -log\sum_x Q(x)\\
+            \end{split}
+        \end{equation*}
+        Since $\sum_x  Q(x) = 1$, so $KL(P||Q)\geq 0$. \\
+        If $P=Q$, it's easily to see that $KL(P||Q)= 0$. \\
+        Because $-log(x)$ is a strictly convex function, so we have the $=$ when $X=E[X]$ with probability 1 where $X=\frac{Q}{P}$.
+        \item 
+        \begin{equation*}
+            \begin{split}
+                KL(P(X)||Q(X)) + KL(P(Y|X)||Q(Y|X))&= \sum_x P(x) log\frac{P(x)}{Q(x)} + \sum_x P(x)(\sum_yP(y|x)log\frac{P(y|x)}{Q(y|x)})\\
+                &=\sum_x P(x) (\sum_yP(y|x)log(\frac{P(x)}{Q(x)} \frac{P(y|x)}{Q(y|x)})\\
+                &=\sum_x \sum_y P(x,y) log(\frac{P(y,x)}{Q(y,x)}) \\
+                &=KL(P(Y,X)||Q(Y,X))
+            \end{split}
+        \end{equation*}
+        \item 
+        \begin{equation*}
+            \begin{split}
+                KL(\hat{P}||P_{\theta})&= \sum_x \hat{P} log\frac{\hat{P}(x)}{P_\theta (x)} \\
+                &= -\sum_x \frac{1}{m} \Sigma_{i=1}^m \boldsymbol{1}\{x^{(i)}=x\} log\frac{P_\theta (x)}{\Sigma_{i=1}^m \boldsymbol{1}\{x^{(i)}=x\}}\\
+                &= -\frac{1}{m} \Sigma_{i=1}^m logP_\theta (x^{(i)})
+            \end{split}
+        \end{equation*}
+        So adjust $\theta$ to minmize the KL is equivalent to maxmize the log-likelihood function.
     \end{enumerate}
 \end{document}
