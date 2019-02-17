@@ -23,7 +23,7 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
   - problem set: [ps3](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/ps3.pdf)
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/assignment3.pdf)
   - source code: 
-        - K-means: [Image Compression](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/Q5/kmeans.py)
+        - K-means: [Image Compression](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/Q5/k-means.py)
 - Assignment #4 (✈️)
   - problem set: [ps4](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/ps4.pdf)
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/assignment4.pdf)
