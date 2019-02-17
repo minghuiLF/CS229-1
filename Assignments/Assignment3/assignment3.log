@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  16 FEB 2019 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  17 FEB 2019 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -239,20 +239,42 @@ Overfull \hbox (29.3747pt too wide) detected at line 207
 []
  []
 
-[4] (f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux) ) 
+<Q5/replaced_small.png, id=23, 642.4pt x 481.8pt>
+File: Q5/replaced_small.png Graphic file (type png)
+<use Q5/replaced_small.png>
+Package pdftex.def Info: Q5/replaced_small.png  used on input line 223.
+(pdftex.def)             Requested size: 375.80544pt x 281.86288pt.
+[4]
+<Q5/distortion_small.png, id=27, 642.4pt x 481.8pt>
+File: Q5/distortion_small.png Graphic file (type png)
+<use Q5/distortion_small.png>
+Package pdftex.def Info: Q5/distortion_small.png  used on input line 227.
+(pdftex.def)             Requested size: 328.82707pt x 246.62634pt.
+<Q5/replaced_large.png, id=28, 642.4pt x 481.8pt>
+File: Q5/replaced_large.png Graphic file (type png)
+<use Q5/replaced_large.png>
+Package pdftex.def Info: Q5/replaced_large.png  used on input line 232.
+(pdftex.def)             Requested size: 375.80544pt x 281.86288pt.
+ [5 <f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/Q5/replaced_small.png (PNG copy)> <f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/Q5/distortion_small.png (PNG copy)>]
+<Q5/distortion_large.png, id=32, 642.4pt x 481.8pt>
+File: Q5/distortion_large.png Graphic file (type png)
+<use Q5/distortion_large.png>
+Package pdftex.def Info: Q5/distortion_large.png  used on input line 236.
+(pdftex.def)             Requested size: 328.82707pt x 246.62634pt.
+ [6 <f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/Q5/replaced_large.png (PNG copy)> <f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/Q5/distortion_large.png (PNG copy)>] (f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux) ) 
 Here is how much of TeX's memory you used:
- 4145 strings out of 492616
- 57980 string characters out of 6132769
+ 4162 strings out of 492616
+ 58434 string characters out of 6132769
  132989 words of memory out of 5000000
- 7993 multiletter control sequences out of 15000+600000
+ 8010 multiletter control sequences out of 15000+600000
  12266 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,20n,32p,322b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 <e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf" (4 pages, 130713 bytes).
+Output written on "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf" (6 pages, 251139 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

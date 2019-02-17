@@ -1,7 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1550324703 "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.tex" "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf" "assignment3" 1550324704
-  "assignment3.aux" 1550324704 8 a94a2480d3289e625eea47cd1b285758 ""
-  "assignment3.tex" 1550324701 9469 4fe18ff6c0daf2fc3a51f595252ab123 ""
+["pdflatex"] 1550387844 "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.tex" "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf" "assignment3" 1550387845
+  "Q5/distortion_large.png" 1550387037 14356 694690e6a1454ea1e761550a7246c062 ""
+  "Q5/distortion_small.png" 1550385530 14800 f96ee2ac4e81ffaaee82067dee07ce17 ""
+  "Q5/replaced_large.png" 1550387024 69239 00ce0035df13c9eaaa78ff07e7124714 ""
+  "Q5/replaced_small.png" 1550385508 20167 0303e8880bc541560f17886f6c9552d2 ""
+  "assignment3.aux" 1550387845 8 a94a2480d3289e625eea47cd1b285758 ""
+  "assignment3.tex" 1550387843 10155 d698135cfe2c8446b52fa06198f3198c ""
   "e:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1546784809 3332 103109f5612ad95229751940c61aada0 ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1546781523 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1546781523 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -82,11 +86,11 @@
   "e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1546790598 3173767 7100bf788d9615b497d8659339322484 ""
   "e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1546790760 4223236 f561f954ddab34a29fc242f6e5afb338 ""
   "e:/texlive/2018/texmf.cnf" 1546790491 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux" 1550324704 8 a94a2480d3289e625eea47cd1b285758 ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.tex" 1550324701 9469 4fe18ff6c0daf2fc3a51f595252ab123 ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.aux" 1550387845 8 a94a2480d3289e625eea47cd1b285758 ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.tex" 1550387843 10155 d698135cfe2c8446b52fa06198f3198c ""
   (generated)
-  "assignment3.pdf"
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf"
-  "assignment3.aux"
   "assignment3.log"
+  "assignment3.pdf"
+  "assignment3.aux"
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.pdf"
   "f:/Desktop/Machine Learning/CS229/Assignments/Assignment3/assignment3.log"
