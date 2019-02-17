@@ -19,11 +19,16 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
   - source code: 
     - Logistic Regression: [Training stability](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/Q1/lr_debug.py)
     -  Spam classiﬁcation: [Naive Bayes](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment2/Q6/nb.py)
-- Assignment #3 (✈️)
+- Assignment #3 (😄)
   - problem set: [ps3](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/ps3.pdf)
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/assignment3.pdf)
   - source code: 
-    - To be continued.
+        - K-means: [Image Compression](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/Q5/kmeans.py)
+- Assignment #4 (✈️)
+  - problem set: [ps4](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/ps4.pdf)
+  - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/assignment4.pdf)
+  - source code: 
+        - to be continued
 
 ### Tools 🔨
 VS Code <br>
