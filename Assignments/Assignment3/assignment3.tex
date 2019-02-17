@@ -217,6 +217,8 @@
     \end{enumerate}
 
     \section*{K-means for compression}
+    Since we have reduced the number of colors to 16, we only need to store the 16 colors and the location information, 
+    which decreses the space we need to store the whole image. \\
     Here is the result of k-means with mandrill-small.
     \begin{figure}[H]
         \centering
@@ -224,8 +226,9 @@
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.70\textwidth]{Q5/distortion_small.png}
+        \includegraphics[width=0.60\textwidth]{Q5/distortion_small.png}
     \end{figure}
+    \newpage
     Here is the result of k-means with mandrill-large.
     \begin{figure}[H]
         \centering
@@ -233,6 +236,6 @@
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.70\textwidth]{Q5/distortion_large.png}
+        \includegraphics[width=0.60\textwidth]{Q5/distortion_large.png}
     \end{figure}
 \end{document}
