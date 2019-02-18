@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage,enumitem,amsmath,amssymb,graphicx,grffile,float,listings}
+
+
+
+\begin{document}
+    %Title Section
+    \begin{flushleft}
+    \LARGE CS229 Fall 2017\\
+    \LARGE Problem Set \#4 Solutions:  EM, DL \& RL \\
+    \textbf{\normalsize Author: LFhase \quad rimemosa@163.com}
+    \end{flushleft} 
+    \noindent
+    \rule{\linewidth}{0.4pt}
+    %Title Section
+
+    \section*{Neural Networks: MNIST image classification}
+    \begin{enumerate}[label=(\alph*)]
+        \item Training the BP neural network version 1 without regularization.
+        \begin{figure}[h]
+            \begin{minipage}[h]{0.5\linewidth}
+                \centering
+                \includegraphics[width=2.5in]{Q1/loss_v1.png}
+            \end{minipage}%
+            \begin{minipage}[h]{0.5\linewidth}
+                \centering
+                \includegraphics[width=2.5in]{Q1/acc_v1.png}
+            \end{minipage}
+        \end{figure}
+        \item Training the BP neural network version 1 with regularization ($\lambda = 0.25$).
+        \begin{figure}[h]
+            \begin{minipage}[h]{0.5\linewidth}
+                \centering
+                \includegraphics[width=2.5in]{Q1/loss_v2.png}
+            \end{minipage}%
+            \begin{minipage}[h]{0.5\linewidth}
+                \centering
+                \includegraphics[width=2.5in]{Q1/acc_v2.png}
+            \end{minipage}
+        \end{figure}
+        From the result we can see, with regularization of $W$, the overfitting is prevented but the training process has more fluctuation.
+        \item The accuracy of test set is 0.928700 (without regularization) and 0.972300 (with regularization).
+    \end{enumerate}
+
+    \newpage
+    \section*{EM Convergence }
+    Since EM algorithm has converged, the lower bound of $l(\theta)$ is maxmized.
+    Let LB represent the lower bound and we have (drop down some scripts for convenience)
+    \begin{equation*}
+        \begin{split}
+            \bigtriangledown_\theta LB |_{\theta=\theta^*} &= \Sigma_i \Sigma_z Q_z \frac{Q_z}{p(x,z;\theta^*)}\frac{1}{Q_z} \bigtriangledown_\theta p(x,z;\theta) |_{\theta=\theta^*} \\
+            &= \Sigma_i \Sigma_z \frac{\bigtriangledown_\theta p(x,z;\theta) |_{\theta=\theta^*}}{p(x;\theta^*)} \\
+            &= \Sigma_i \frac{\bigtriangledown_\theta p(x;\theta) |_{\theta=\theta^*}}{p(x;\theta^*)} \\
+            &= \Sigma_i \bigtriangledown_\theta [log p(x;\theta)]_{\theta=\theta^*} \\
+            &= \bigtriangledown_\theta l(\theta) \\
+            &= 0
+        \end{split}
+    \end{equation*}
+    So when EM algorithm has converges, the $l(\theta)$ acheives the maxima.
+    
+
+    \section*{PCA}
+    gg
+\end{document}
