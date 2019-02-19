@@ -27,7 +27,7 @@
                 \includegraphics[width=2.5in]{Q1/acc_v1.png}
             \end{minipage}
         \end{figure}
-        \item Training the BP neural network version 1 with regularization ($\lambda = 0.25$).
+        \item Training the BP neural network version 2 with regularization ($\lambda = 0.25$).
         \begin{figure}[h]
             \begin{minipage}[h]{0.5\linewidth}
                 \centering
@@ -60,5 +60,28 @@
     
 
     \section*{PCA}
-    gg
+    Since the line between projection and $x^{(i)}$ is perpendicular with the line between Origin point and projection, 
+    minimizing the distance can be written:
+    $$arg {min}_{\mu : \mu^T \mu=1 } \Sigma_{i=1}^m ||{x^{(i)}}^2-{x^{(i)}}^{T} \mu||_2$$
+    Because ${x^{(i)}}^2$ is a constant, so the formula is equivalent to maxmizing the variance.
+
+
+    \section*{Independent components analysis}
+    The W matrix is as below shows:
+   $$\left[ 
+    \begin{matrix} 
+    72.15081922&  28.62441682&  25.91040458& -17.2322227&  -21.191357 \\
+    13.45886116 & 31.94398247&  -4.03003982& -24.0095722&   11.89906179\\
+    18.89688784 & -7.80435173 & 28.71469558&  18.14356811& -21.17474522\\
+    -6.0119837  & -4.15743607 & -1.01692289&  13.87321073&  -5.26252289\\
+    -8.74061186 & 22.55821897&   9.61289023 & 14.73637074&  45.28841827\\
+    \end{matrix}
+    \right]$$
+    The $S$ can be derived by $XW^T$.
+
+    \newpage
+    \section*{Markov decision processes}
+    \begin{enumerate}[label=(\alph*)]
+        \item gg
+    \end{enumerate}
 \end{document}

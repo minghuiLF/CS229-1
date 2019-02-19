@@ -127,7 +127,9 @@ INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/acc_v2.png
 INPUT e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
