@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  19 FEB 2019 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  20 FEB 2019 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -259,11 +259,11 @@ Here is how much of TeX's memory you used:
  9804 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,32p,322b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
-<e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.pdf" (3 pages, 223953 bytes).
+<e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.pdf" (3 pages, 235285 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,11 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1550564309 "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.tex" "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.pdf" "assignment4" 1550564311
+["pdflatex"] 1550668921 "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.tex" "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.pdf" "assignment4" 1550668923
   "Q1/acc_v1.png" 1550474113 23296 b56bb1f2a219c2b780d55b81191aba5f ""
   "Q1/acc_v2.png" 1550475421 35209 05a72b07b9671aa150bdeca86cd00052 ""
   "Q1/loss_v1.png" 1550474102 21325 98b55b1f5047c641288a548c615544d7 ""
   "Q1/loss_v2.png" 1550475413 27860 40b65e49fb82fabee5e55f25037a238b ""
-  "assignment4.aux" 1550564310 8 a94a2480d3289e625eea47cd1b285758 ""
-  "assignment4.tex" 1550564308 3794 101f60b49e2caceb1ad1186b2a13495d ""
+  "assignment4.aux" 1550668922 8 a94a2480d3289e625eea47cd1b285758 ""
+  "assignment4.tex" 1550668918 4639 9d903f66118bcdb95db0a17f86c99171 ""
   "e:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1546784809 3332 103109f5612ad95229751940c61aada0 ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1546781523 1004 54797486969f23fa377b128694d548df ""
   "e:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1546781523 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -32,6 +32,7 @@
   "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1546781524 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1546781524 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1546781524 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1546781524 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1546781524 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1546781524 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1546781524 32587 65067f817f408bc71a7312f3d9828a9b ""
@@ -78,11 +79,11 @@
   "e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1546790598 3173767 7100bf788d9615b497d8659339322484 ""
   "e:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1546790760 4223236 f561f954ddab34a29fc242f6e5afb338 ""
   "e:/texlive/2018/texmf.cnf" 1546790491 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux" 1550564310 8 a94a2480d3289e625eea47cd1b285758 ""
-  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.tex" 1550564308 3794 101f60b49e2caceb1ad1186b2a13495d ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux" 1550668922 8 a94a2480d3289e625eea47cd1b285758 ""
+  "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.tex" 1550668918 4639 9d903f66118bcdb95db0a17f86c99171 ""
   (generated)
-  "assignment4.aux"
+  "assignment4.pdf"
   "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.pdf"
   "f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.log"
-  "assignment4.pdf"
+  "assignment4.aux"
   "assignment4.log"

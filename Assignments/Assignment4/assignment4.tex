@@ -82,6 +82,17 @@
     \newpage
     \section*{Markov decision processes}
     \begin{enumerate}[label=(\alph*)]
-        \item gg
+        \item let $s^a = ||V_1-V_2||_\infty$ and  $s^b = ||B(V_1)-B(V_2)||_\infty$, thus when $s=s^a,s^b$ the two formulas get their maximas.
+        With Bellman equation, we have: ( assume $B(V_1)<B(V_2)$ )
+        \begin{equation*}
+            \begin{split}
+                ||B(V_1)-B(V_2)||_\infty &= \gamma (\Sigma_{s'} P_{s^a a^1}(s')V_1(s') - \Sigma_{s'} P_{s^a a^2}(s')V_2(s') ) \\
+                &\leq \gamma (\Sigma_{s'} P_{s^a a^2}(s')V_1(s') - \Sigma_{s'} P_{s^a a^1}(s')V_2(s') ) \\
+                &=\gamma \Sigma_{s'} P_{s^a a^2}(V_1(s') -V_2(s')) \\
+                &\leq (V_1(s^b)-V_2(s^b))  \\
+            \end{split}
+        \end{equation*}
+        \item Assume the two points are $V_1$ and $V_2$, so $||B(V_1)-B(V_2)||_\infty = ||V_1-V_2||_\infty \leq \gamma||V_1-V_2||_\infty$, 
+        which can't be true because $\gamma < 1$.
     \end{enumerate}
 \end{document}
