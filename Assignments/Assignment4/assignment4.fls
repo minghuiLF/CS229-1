@@ -68,6 +68,25 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 INPUT e:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT e:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux
 OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux
@@ -77,19 +96,32 @@ INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 INPUT e:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT e:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
-INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
-INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT e:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
 OUTPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.pdf
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/loss_v1.png
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT e:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
@@ -125,7 +157,13 @@ INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/acc_v2.png
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/acc_v2.png
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q1/acc_v2.png
 INPUT e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q6/192.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q6/192.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q6/192.png
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/Q6/192.png
 INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.aux
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
+INPUT f:/Desktop/Machine Learning/CS229/Assignments/Assignment4/assignment4.out
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

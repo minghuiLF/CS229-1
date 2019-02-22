@@ -1,5 +1,6 @@
 \documentclass[12pt]{article}
 \usepackage{fullpage,enumitem,amsmath,amssymb,graphicx,grffile,float,listings}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
 
 
 
@@ -95,4 +96,12 @@
         \item Assume the two points are $V_1$ and $V_2$, so $||B(V_1)-B(V_2)||_\infty = ||V_1-V_2||_\infty \leq \gamma||V_1-V_2||_\infty$, 
         which can't be true because $\gamma < 1$.
     \end{enumerate}
+
+    \section*{Reinforcement Learning: The inverted pendulum }
+    Finish the code in \href{https://github.com/zyxue/stanford-cs229/blob/master/Problem-set-4/6-reinforcement-learning-the-inverted-pendulum/control.py}{control.py}
+    and make 5 training trails to get an average of 158 failure times to get converged.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Q6/192.png}
+    \end{figure}
 \end{document}
