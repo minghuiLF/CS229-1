@@ -24,11 +24,15 @@ The course page is here. http://cs229.stanford.edu/syllabus.html
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/assignment3.pdf)
   - source code: 
         - K-means: [Image Compression](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment3/Q5/k-means.py)
-- Assignment #4 (✈️)
+- Assignment #4 (😄)
   - problem set: [ps4](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/ps4.pdf)
   - solution: [link](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/assignment4.pdf)
   - source code: 
-        - to be continued
+        - [BP Neural Network](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/Q1/nn_starter.py)
+        - [ICP](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/Q4/bellsej.py)
+        - [MDP](https://github.com/LFhase/CS229/blob/master/Assignments/Assignment4/Q6/control.py)
+- Project
+  - I'll try to solve one of problems in kaggle competition and take it as my class projcet. More details can be seen in my repository.
 
 ### Tools 🔨
 VS Code <br>
